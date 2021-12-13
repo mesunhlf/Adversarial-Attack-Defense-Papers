@@ -10,7 +10,7 @@
 <h2 id="0">Dataset and Network</h2>
 | Dataset | Introduction |
 | :----:| :----: |
-| [NIPS2017](https://drive.google.com/file/d/1Z5VTMQrtJRymfN8AZJ2jjU8zdjMrMqIR/view?usp=sharing) | A subset of ImageNet validation set containing 1000 images, which are used in the NIPS 2017 competition. | 
+| [NIPS2017](https://drive.google.com/file/d/1Z5VTMQrtJRymfN8AZJ2jjU8zdjMrMqIR/view?usp=sharing) | A subset of ImageNet validation set containing 1000 images, which are used in the NIPS 2017 competition. |
 | [SACP2019](https://drive.google.com/file/d/1oC1ITY8SnQeeC4JxAnGh5HNItasdTQnx/view?usp=sharing) | A subset of ImageNet validation set containing 1216 images, which are used in Tianchi Security AI Challenger Program Competition. |
 
 
@@ -59,7 +59,7 @@
 <h2 id="2">Adversarial Defense</h2>
 
 | Name | Paper | Source | Type | Dataset | Code  
-| :----:| :----: | :----: | :----: | :----: | 
+| :----:| :----: | :----: | :----: | :----: | :----: |
 | AT | [Towards deep learning models resistant to adversarial attacks](https://arxiv.org/abs/1706.06083) | ICLR2018 | adversarial training | ImageNet | [Code](https://github.com/tensorflow/models/tree/r1.12.0/research/adv_imagenet_models)
 | EAT | [Ensemble Adversarial Training: Attacks and Defenses](https://arxiv.org/abs/1705.07204) | ICLR2018 | adversarial training | ImageNet | [Code](https://github.com/tensorflow/models/tree/r1.12.0/research/adv_imagenet_models)
 | RS | [Certified Adversarial Robustness via Randomized Smoothing](http://proceedings.mlr.press/v97/cohen19c.html) | ICML2019 | adversarial training | ImageNet | [Code](http://github.com/locuslab/smoothing)
