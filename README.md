@@ -74,3 +74,4 @@
 | FS | [Defense Against Adversarial Attacks Using Feature Scattering-based Adversarial Training](https://proceedings.neurips.cc/paper/2019/hash/d8700cbd38cc9f30cecb34f0c195b137-Abstract.html) | NIPS2019 | adversarial training | CIFAR10 | [Code](https://github.com/Haichao-Zhang/FeatureScatter)
 | DVERGE | [DVERGE: Diversifying Vulnerabilities for Enhanced Robust Generation of Ensembles](https://arxiv.org/abs/2009.14720) | NIPS2020 | adversarial training / ensemble | CIFAR10 | [Code](https://github.com/zjysteven/DVERGE)
 | RobNet | [When NAS Meets Robustness: In Search of Robust Architectures against Adversarial Attacks](https://arxiv.org/abs/1911.10695) | CVPR2020 | adversarial training | CIFAR10 SVHN ImageNet | [Code](https://github.com/gmh14/RobNets)
+| NRP | [A Self-supervised Approach for Adversarial Robustness](https://arxiv.org/abs/2006.04924) | CVPR2020 | adversarial training | ImageNet | [Code](https://github.com/Muzammal-Naseer/NRP)
