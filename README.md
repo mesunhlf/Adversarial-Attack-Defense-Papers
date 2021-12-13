@@ -8,15 +8,15 @@
 * [Adversarial Defense Method](#2)
 
 <h2 id="0">Dataset and Network</h2>
-| Dataset | Introduction
-| :----:| :----: |
-| [NIPS2017](https://drive.google.com/file/d/1Z5VTMQrtJRymfN8AZJ2jjU8zdjMrMqIR/view?usp=sharing) | A subset of ImageNet validation set containing 1000 images, which are used in the NIPS 2017 competition. 
-| [SACP2019](https://drive.google.com/file/d/1oC1ITY8SnQeeC4JxAnGh5HNItasdTQnx/view?usp=sharing) | A subset of ImageNet validation set containing 1216 images, which are used in Tianchi Security AI Challenger Program Competition. 
+| Dataset | Introduction | Link
+| :----: | :----: | :----: |
+| NIPS2017 | A subset of ImageNet validation set containing 1000 images, which are used in the NIPS 2017 competition. | [Download](https://drive.google.com/file/d/1Z5VTMQrtJRymfN8AZJ2jjU8zdjMrMqIR/view?usp=sharing)
+| SACP2019 | A subset of ImageNet validation set containing 1216 images, which are used in Tianchi Security AI Challenger Program Competition. | [Download](https://drive.google.com/file/d/1oC1ITY8SnQeeC4JxAnGh5HNItasdTQnx/view?usp=sharing)
 
 
 
 | Network | Paper | Source
-| :----:| :----: | :----: | 
+| :----: | :----: | :----: | 
 | VggNet | [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556) | 
 | InceptionNet | [Rethinking the inception architecture for computer vision](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Szegedy_Rethinking_the_Inception_CVPR_2016_paper.html) | CVPR2016
 | ResNet | [Deep residual learning for image recognition](https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html) | CVPR2016
@@ -28,7 +28,7 @@
 <h2 id="1">Adversarial Attack</h2>
 
 | Name | Paper | Source | Type | Code  
-| :----:| :----: | :----: | :----: | :----:  
+| :----: | :----: | :----: | :----: | :----:  
 | FGSM | [Explaining and harnessing adversarial examples](https://arxiv.org/abs/1412.6572) | | white-box & transfer | 
 | BIM | [Adversarial examples in the physical world](https://arxiv.org/pdf/1607.02533.pdf) | ICLR2017 Workshop | white-box | 
 | UAP | [Universal Adversarial Perturbations](https://openaccess.thecvf.com/content_cvpr_2017/html/Moosavi-Dezfooli_Universal_Adversarial_Perturbations_CVPR_2017_paper.html) | CVPR2017 | white-box / universal |  [Code](https://github.com/LTS4/universal)
@@ -59,7 +59,7 @@
 <h2 id="2">Adversarial Defense</h2>
 
 | Name | Paper | Source | Type | Dataset | Code  
-| :----:| :----: | :----: | :----: | :----: | :----: |
+| :----: | :----: | :----: | :----: | :----: | :----: |
 | AT | [Towards deep learning models resistant to adversarial attacks](https://arxiv.org/abs/1706.06083) | ICLR2018 | adversarial training | ImageNet | [Code](https://github.com/tensorflow/models/tree/r1.12.0/research/adv_imagenet_models)
 | EAT | [Ensemble Adversarial Training: Attacks and Defenses](https://arxiv.org/abs/1705.07204) | ICLR2018 | adversarial training | ImageNet | [Code](https://github.com/tensorflow/models/tree/r1.12.0/research/adv_imagenet_models)
 | RS | [Certified Adversarial Robustness via Randomized Smoothing](http://proceedings.mlr.press/v97/cohen19c.html) | ICML2019 | adversarial training | ImageNet | [Code](http://github.com/locuslab/smoothing)
@@ -72,10 +72,10 @@
 | PD | [Deflecting Adversarial Attacks with Pixel Deflection](https://openaccess.thecvf.com/content_cvpr_2018/html/Prakash_Deflecting_Adversarial_Attacks_CVPR_2018_paper.html) | CVPR2019 | plug-in | ImageNet |  [Code](https://github.com/iamaaditya/pixel-deflection)
 | PRN | [Defense against Universal Adversarial Perturbations](https://openaccess.thecvf.com/content_cvpr_2018/html/Akhtar_Defense_Against_Universal_CVPR_2018_paper.html) | CVPR2018 | adversarial training | ImageNet |  [Code](https://github.com/liujianee/Pertrubation_Rectifying_Network)
 | COM | [ComDefend: An Efficient Image Compression Model to Defend Adversarial Examples](https://openaccess.thecvf.com/content_CVPR_2019/html/Jia_ComDefend_An_Efficient_Image_Compression_Model_to_Defend_Adversarial_Examples_CVPR_2019_paper.html) | CVPR2019 | plug-in | ImageNet |  [Code](https://github.com/jiaxiaojunQAQ/Comdefend)
-| RD | [Defending against adversarial attacks by randomized diversification](https://openaccess.thecvf.com/content_CVPR_2019/html/Taran_Defending_Against_Adversarial_Attacks_by_Randomized_Diversification_CVPR_2019_paper.html) | CVPR2019 | adversarial training | CIFAR10 MNIST | [Code](https://github.com/taranO/defending-adversarial-attacks-by-RD)
-| ADP | [Improving adversarial robustness via promoting ensemble diversity](http://proceedings.mlr.press/v97/pang19a) | ICML2019 | adversarial training / ensemble |CIFAR100 CIFAR10 MNIST | [Code](https://github.com/P2333/Adaptive-Diversity-Promoting)
-| TRADES | [Theoretically Principled Trade-off between Robustness and Accuracy](http://proceedings.mlr.press/v97/zhang19p.html) | ICML2019 | adversarial training | CIFAR10 MNIST | [Code](https://github.com/yaodongyu/TRADES)
+| RD | [Defending against adversarial attacks by randomized diversification](https://openaccess.thecvf.com/content_CVPR_2019/html/Taran_Defending_Against_Adversarial_Attacks_by_Randomized_Diversification_CVPR_2019_paper.html) | CVPR2019 | adversarial training | CIFAR10 / MNIST | [Code](https://github.com/taranO/defending-adversarial-attacks-by-RD)
+| ADP | [Improving adversarial robustness via promoting ensemble diversity](http://proceedings.mlr.press/v97/pang19a) | ICML2019 | adversarial training / ensemble |CIFAR100 / CIFAR10 / MNIST | [Code](https://github.com/P2333/Adaptive-Diversity-Promoting)
+| TRADES | [Theoretically Principled Trade-off between Robustness and Accuracy](http://proceedings.mlr.press/v97/zhang19p.html) | ICML2019 | adversarial training | CIFAR10 / MNIST | [Code](https://github.com/yaodongyu/TRADES)
 | FS | [Defense Against Adversarial Attacks Using Feature Scattering-based Adversarial Training](https://proceedings.neurips.cc/paper/2019/hash/d8700cbd38cc9f30cecb34f0c195b137-Abstract.html) | NIPS2019 | adversarial training | CIFAR10 | [Code](https://github.com/Haichao-Zhang/FeatureScatter)
 | DVERGE | [DVERGE: Diversifying Vulnerabilities for Enhanced Robust Generation of Ensembles](https://arxiv.org/abs/2009.14720) | NIPS2020 | adversarial training / ensemble | CIFAR10 | [Code](https://github.com/zjysteven/DVERGE)
-| RobNet | [When NAS Meets Robustness: In Search of Robust Architectures against Adversarial Attacks](https://arxiv.org/abs/1911.10695) | CVPR2020 | adversarial training | CIFAR10 SVHN ImageNet | [Code](https://github.com/gmh14/RobNets)
+| RobNet | [When NAS Meets Robustness: In Search of Robust Architectures against Adversarial Attacks](https://arxiv.org/abs/1911.10695) | CVPR2020 | adversarial training | CIFAR10 / SVHN / ImageNet | [Code](https://github.com/gmh14/RobNets)
 | NRP | [A Self-supervised Approach for Adversarial Robustness](https://arxiv.org/abs/2006.04924) | CVPR2020 | adversarial training | ImageNet | [Code](https://github.com/gmh14/RobNets)
