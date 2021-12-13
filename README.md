@@ -16,13 +16,13 @@
 
 
 
-| Network | Paper | Source
-| :----: | :----: | :----: | 
-| VggNet | [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556) | 
-| InceptionNet | [Rethinking the inception architecture for computer vision](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Szegedy_Rethinking_the_Inception_CVPR_2016_paper.html) | CVPR2016
-| ResNet | [Deep residual learning for image recognition](https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html) | CVPR2016
-| DenseNet | [Densely Connected Convolutional Networks](https://arxiv.org/abs/1608.06993) | CVPR2017
-| EfficientNet | [EfficientNet: Rethinking model scaling for convolutional neural networks](http://proceedings.mlr.press/v97/tan19a.html) | ICML2019
+| Network | Paper | Source | Code
+| :----: | :----: | :----: | :----: | 
+| VggNet | [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556) | ICLR2015  | [Code](https://github.com/tensorflow/models/tree/master/research/slim)
+| InceptionNet | [Rethinking the inception architecture for computer vision](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Szegedy_Rethinking_the_Inception_CVPR_2016_paper.html) | CVPR2016 | [Code](https://github.com/tensorflow/models/tree/master/research/slim)
+| ResNet | [Deep residual learning for image recognition](https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html) | CVPR2016 | [Code](https://github.com/tensorflow/models/tree/master/research/slim)
+| DenseNet | [Densely Connected Convolutional Networks](https://arxiv.org/abs/1608.06993) | CVPR2017 | [Code](https://github.com/tensorflow/models/tree/master/research/slim)
+| EfficientNet | [EfficientNet: Rethinking model scaling for convolutional neural networks](http://proceedings.mlr.press/v97/tan19a.html) | ICML2019 | [Code](https://github.com/tensorflow/models/tree/master/research/slim)
 
 
 
@@ -40,6 +40,7 @@
 | SIM | [Nesterov Accelerated Gradient and Scale Invariance for Adversarial Attacks](https://arxiv.org/abs/1908.06281) | ICLR2020 | white-box / transfer |  [Code](https://github.com/JHL-HUST/SI-NI-FGSM)
 | DEM | [Improving the Transferability of Adversarial Examples with Resized-Diverse-Inputs, Diversity-Ensemble and Region Fitting](https://link.springer.com/chapter/10.1007/978-3-030-58542-6_34) | ECCV2020 | white-box / transfer |  [Code](https://github.com/278287847/DEM)
 | SAM | [Enhancing Adversarial Examples Via Self-Augmentation](https://ieeexplore.ieee.org/abstract/document/9428372/) | ICME2021 | white-box / transfer |  [Code](https://github.com/zhuangwz/ICME2021_self_augmentation)
+| VIM | [Enhancing the Transferability of Adversarial Attacks through Variance Tuning](https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Enhancing_the_Transferability_of_Adversarial_Attacks_Through_Variance_Tuning_CVPR_2021_paper.html) | CVPR2020 | white-box / transfer |  [Code](https://github.com/JHL-HUST/VT)
 | BPDA | [Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples](https://arxiv.org/abs/1802.00420) | ICML2018 | white-box |  [Code](https://github.com/anishathalye/obfuscated-gradients)
 | RP2 | [Robust Physical-World Attacks on Deep Learning Visual Classification](https://openaccess.thecvf.com/content_cvpr_2018/html/Eykholt_Robust_Physical-World_Attacks_CVPR_2018_paper) | CVPR2018 | white-box / physical |  [Code](https://github.com/evtimovi/robust_physical_perturbations)
 | NAG | [NAG: Network for Adversary Generation](https://openaccess.thecvf.com/content_cvpr_2018/html/Mopuri_NAG_Network_for_CVPR_2018_paper.html) | CVPR2017 | white-box / GAN |  [Code](https://github.com/val-iisc/nag)
@@ -56,6 +57,9 @@
 | GDA | [A Geometry-Inspired Decision-Based Attack](https://openaccess.thecvf.com/content_ICCV_2019/html/Liu_A_Geometry-Inspired_Decision-Based_Attack_ICCV_2019_paper.html) | ICCV2019 | black-box / decision |  [Code](https://github.com/ShahryarBQ/qFool)
 | C&W | [Curls &Whey: Boosting Black-Box Adversarial Attacks](https://openaccess.thecvf.com/content_CVPR_2019/html/Shi_Curls__Whey_Boosting_Black-Box_Adversarial_Attacks_CVPR_2019_paper.html) | CVPR2019 | black-box |  [Code](https://github.com/walegahaha/Curls-Whey)
 | AdvLB | [Adversarial Laser Beam: Effective Physical-World Attack to DNNs in a Blink](https://arxiv.org/abs/2103.06504) | CVPR2021 | white-box / physical |  [Code](https://github.com/RjDuan/Advlight)
+| FIA | [Feature Importance-aware Transferable Adversarial Attacks](https://arxiv.org/abs/2107.14185) | ICCV2021 | white-box / transfer |  [Code](https://github.com/hcguoO0/FIA)
+
+
 
 <h2 id="2">Adversarial Defense</h2>
 
@@ -80,3 +84,4 @@
 | DVERGE | [DVERGE: Diversifying Vulnerabilities for Enhanced Robust Generation of Ensembles](https://arxiv.org/abs/2009.14720) | NIPS2020 | adversarial training / ensemble | CIFAR10 | [Code](https://github.com/zjysteven/DVERGE)
 | RobNet | [When NAS Meets Robustness: In Search of Robust Architectures against Adversarial Attacks](https://arxiv.org/abs/1911.10695) | CVPR2020 | adversarial training | CIFAR10 / SVHN / ImageNet | [Code](https://github.com/gmh14/RobNets)
 | NRP | [A Self-supervised Approach for Adversarial Robustness](https://arxiv.org/abs/2006.04924) | CVPR2020 | adversarial training | ImageNet | [Code](https://github.com/gmh14/RobNets)
+| AVMixup | [Adversarial Vertex Mixup: Toward Better Adversarially Robust Generalization](https://arxiv.org/abs/2003.02484) | CVPR2020 | adversarial training | MNIST / CIFAR10 / SVHN | [Code](https://github.com/Saehyung-Lee/cifar10_challenge)
