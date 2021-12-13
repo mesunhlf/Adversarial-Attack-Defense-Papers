@@ -9,12 +9,12 @@
 
 <h2 id="0">Dataset and Network</h2>
 | Dataset | Introduction
-| :----:| :----: 
+| :----:| :----: | 
 | [NIPS2017](https://drive.google.com/file/d/1Z5VTMQrtJRymfN8AZJ2jjU8zdjMrMqIR/view?usp=sharing) | A subset of ImageNet validation set containing 1000 images, which are used in the NIPS 2017 competition.
 | [SACP2019](https://drive.google.com/file/d/1oC1ITY8SnQeeC4JxAnGh5HNItasdTQnx/view?usp=sharing) | A subset of ImageNet validation set containing 1216 images, which are used in Tianchi Security AI Challenger Program Competition.
 
 | Network | Paper | Source
-| :----:| :----: | :----: 
+| :----:| :----: | :----: | 
 | VggNet | [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556) | 
 | InceptionNet | [Rethinking the inception architecture for computer vision](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Szegedy_Rethinking_the_Inception_CVPR_2016_paper.html) | CVPR2016
 | ResNet | [Deep residual learning for image recognition](https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html) | CVPR2016
@@ -74,4 +74,4 @@
 | FS | [Defense Against Adversarial Attacks Using Feature Scattering-based Adversarial Training](https://proceedings.neurips.cc/paper/2019/hash/d8700cbd38cc9f30cecb34f0c195b137-Abstract.html) | NIPS2019 | adversarial training | CIFAR10 | [Code](https://github.com/Haichao-Zhang/FeatureScatter)
 | DVERGE | [DVERGE: Diversifying Vulnerabilities for Enhanced Robust Generation of Ensembles](https://arxiv.org/abs/2009.14720) | NIPS2020 | adversarial training / ensemble | CIFAR10 | [Code](https://github.com/zjysteven/DVERGE)
 | RobNet | [When NAS Meets Robustness: In Search of Robust Architectures against Adversarial Attacks](https://arxiv.org/abs/1911.10695) | CVPR2020 | adversarial training | CIFAR10 SVHN ImageNet | [Code](https://github.com/gmh14/RobNets)
-| NRP | [A Self-supervised Approach for Adversarial Robustness](https://arxiv.org/abs/2006.04924) | CVPR2020 | adversarial training | ImageNet | [Code](https://github.com/Muzammal-Naseer/NRP)
+| NRP | [A Self-supervised Approach for Adversarial Robustness](https://arxiv.org/abs/2006.04924) | CVPR2020 | adversarial training | ImageNet | [Code](https://github.com/gmh14/RobNets)
