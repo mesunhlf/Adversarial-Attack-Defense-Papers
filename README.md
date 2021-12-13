@@ -13,7 +13,7 @@
 | :----: | :----: | :----: |
 | NIPS2017 | A subset of ImageNet validation set containing 1000 images, which are used in the NIPS 2017 competition. | [Download](https://drive.google.com/file/d/1Z5VTMQrtJRymfN8AZJ2jjU8zdjMrMqIR/view?usp=sharing)
 | SACP2019 | A subset of ImageNet validation set containing 1216 images, which are used in Tianchi Security AI Challenger Program Competition. | [Download](https://drive.google.com/file/d/1oC1ITY8SnQeeC4JxAnGh5HNItasdTQnx/view?usp=sharing)
-
+| ImageNet-A | [Natural Adversarial Examples](https://openaccess.thecvf.com/content/CVPR2021/html/Hendrycks_Natural_Adversarial_Examples_CVPR_2021_paper.html): Real-world, unmodified, and naturally occurring examples that cause classifier accuracy to significantly degrade. | [Download](https://github.com/hendrycks/natural-adv-examples)
 
 
 | Network | Paper | Source | Code
@@ -54,19 +54,21 @@
 | Ghost | [Learning Transferable Adversarial Examples via Ghost Networks](https://ojs.aaai.org/index.php/AAAI/article/view/6810) | AAA2019 | white-box / transfer |  [Code](https://github.com/LiYingwei/ghost-network)
 | ILA | [Enhancing Adversarial Example Transferability with an Intermediate Level Attack](https://arxiv.org/abs/1907.10823) | ICCV2019 | white-box / transfer |  [Code](https://github.com/CUAI/Intermediate-Level-Attack)
 | Boundary | [Decision-based adversarial attacks: Reliable attacks against black-box machine learning models](https://arxiv.org/abs/1712.04248) | ICLR2018 | black-box / decision |  [Code](https://github.com/greentfrapp/boundary-attack)
+| HLA | [Query-Efficient Hard-label Black-box Attack: An Optimization-based Approach](https://arxiv.org/abs/1807.04457) | ICLR2019 | black-box / decision |  [Code](https://github.com/LeMinhThong/blackbox-attack)
 | GDA | [A Geometry-Inspired Decision-Based Attack](https://openaccess.thecvf.com/content_ICCV_2019/html/Liu_A_Geometry-Inspired_Decision-Based_Attack_ICCV_2019_paper.html) | ICCV2019 | black-box / decision |  [Code](https://github.com/ShahryarBQ/qFool)
 | C&W | [Curls &Whey: Boosting Black-Box Adversarial Attacks](https://openaccess.thecvf.com/content_CVPR_2019/html/Shi_Curls__Whey_Boosting_Black-Box_Adversarial_Attacks_CVPR_2019_paper.html) | CVPR2019 | black-box |  [Code](https://github.com/walegahaha/Curls-Whey)
 | AdvLB | [Adversarial Laser Beam: Effective Physical-World Attack to DNNs in a Blink](https://arxiv.org/abs/2103.06504) | CVPR2021 | white-box / physical |  [Code](https://github.com/RjDuan/Advlight)
 | FIA | [Feature Importance-aware Transferable Adversarial Attacks](https://arxiv.org/abs/2107.14185) | ICCV2021 | white-box / transfer |  [Code](https://github.com/hcguoO0/FIA)
-
+| AutoAttack | [Reliable evaluation of adversarial robustness with an ensemble of diverse parameter-free attacks](http://proceedings.mlr.press/v119/croce20b.html) | ICML2020 | white-box |  [Code](https://github.com/hcguoO0/FIA)
 
 
 <h2 id="2">Adversarial Defense</h2>
 
 | Name | Paper | Source | Type | Dataset | Code  
 | :----: | :----: | :----: | :----: | :----: | :----: |
-| AT | [Towards deep learning models resistant to adversarial attacks](https://arxiv.org/abs/1706.06083) | ICLR2018 | adversarial training | ImageNet | [Code](https://github.com/tensorflow/models/tree/r1.12.0/research/adv_imagenet_models)
+| AT | [Towards deep learning models resistant to adversarial attacks](https://arxiv.org/abs/1706.06083) | ICLR2018 | adversarial training | ImageNet / CIFAR10 / MNIST | [Code](https://github.com/tensorflow/models/tree/r1.12.0/research/adv_imagenet_models)
 | EAT | [Ensemble Adversarial Training: Attacks and Defenses](https://arxiv.org/abs/1705.07204) | ICLR2018 | adversarial training | ImageNet | [Code](https://github.com/tensorflow/models/tree/r1.12.0/research/adv_imagenet_models)
+| CAT | [Curriculum Adversarial Training](https://arxiv.org/abs/1805.04807) | IJCAI2018 | adversarial training | CIFAR100 / CIFAR10 / MNIST | [Code](https://github.com/sunblaze-ucb/curriculum-adversarial-training-CAT)
 | RS | [Certified Adversarial Robustness via Randomized Smoothing](http://proceedings.mlr.press/v97/cohen19c.html) | ICML2019 | adversarial training | ImageNet | [Code](http://github.com/locuslab/smoothing)
 | STN | [Certified Adversarial Robustness with Additive Noise](https://arxiv.org/abs/1809.03113) | NIPS2019 | adversarial training | CIFAR10 | [Code](https://github.com/Bai-Li/STN-Code)
 | R&P | [Mitigating Adversarial Effects Through Randomization](https://arxiv.org/abs/1711.01991) | ICLR2018 | plug-in | ImageNet | [Code](https://github.com/cihangxie/NIPS2017_adv_challenge_defense)
@@ -85,3 +87,5 @@
 | RobNet | [When NAS Meets Robustness: In Search of Robust Architectures against Adversarial Attacks](https://arxiv.org/abs/1911.10695) | CVPR2020 | adversarial training | CIFAR10 / SVHN / ImageNet | [Code](https://github.com/gmh14/RobNets)
 | NRP | [A Self-supervised Approach for Adversarial Robustness](https://arxiv.org/abs/2006.04924) | CVPR2020 | adversarial training | ImageNet | [Code](https://github.com/gmh14/RobNets)
 | AVMixup | [Adversarial Vertex Mixup: Toward Better Adversarially Robust Generalization](https://arxiv.org/abs/2003.02484) | CVPR2020 | adversarial training | MNIST / CIFAR10 / SVHN | [Code](https://github.com/Saehyung-Lee/cifar10_challenge)
+| ADT | [Adversarial distributional training for robust deep learning](https://arxiv.org/abs/2002.05999) | NIPS2020 | adversarial training | CIFAR100 / SVHN | [Code](https://github.com/dongyp13/Adversarial-Distributional-Training)
+| FLSS | [Boosting Adversarial Robustness using Feature Level Stochastic Smoothing](https://openaccess.thecvf.com/content/CVPR2021W/SAIAD/html/Addepalli_Boosting_Adversarial_Robustness_Using_Feature_Level_Stochastic_Smoothing_CVPRW_2021_paper.html) | CVPR2021 | adversarial training | CIFAR100 / CIFAR10 | [Code](https://github.com/val-iisc/FLSS)
