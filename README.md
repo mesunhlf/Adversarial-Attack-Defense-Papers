@@ -59,10 +59,13 @@
 | SimBA | [Simple Black-box Adversarial Attacks](https://proceedings.mlr.press/v97/guo19a.html) | ICML2019 | black-box / decision |  [Code](https://github.com/cg563/simple-blackbox-attack)
 | GDA | [A Geometry-Inspired Decision-Based Attack](https://openaccess.thecvf.com/content_ICCV_2019/html/Liu_A_Geometry-Inspired_Decision-Based_Attack_ICCV_2019_paper.html) | ICCV2019 | black-box / decision |  [Code](https://github.com/ShahryarBQ/qFool)
 | C&W | [Curls &Whey: Boosting Black-Box Adversarial Attacks](https://openaccess.thecvf.com/content_CVPR_2019/html/Shi_Curls__Whey_Boosting_Black-Box_Adversarial_Attacks_CVPR_2019_paper.html) | CVPR2019 | black-box |  [Code](https://github.com/walegahaha/Curls-Whey)
-| AdvLB | [Adversarial Laser Beam: Effective Physical-World Attack to DNNs in a Blink](https://arxiv.org/abs/2103.06504) | CVPR2021 | white-box / physical |  [Code](https://github.com/RjDuan/Advlight)
-| FIA | [Feature Importance-aware Transferable Adversarial Attacks](https://arxiv.org/abs/2107.14185) | ICCV2021 | white-box / transfer |  [Code](https://github.com/hcguoO0/FIA)
 | AutoAttack | [Reliable evaluation of adversarial robustness with an ensemble of diverse parameter-free attacks](http://proceedings.mlr.press/v119/croce20b.html) | ICML2020 | white-box |  [Code](https://github.com/hcguoO0/FIA)
-
+| AdvLB | [Adversarial Laser Beam: Effective Physical-World Attack to DNNs in a Blink](https://arxiv.org/abs/2103.06504) | CVPR2021 | white-box / physical |  [Code](https://github.com/RjDuan/Advlight)
+| LAFEAT | [LAFEAT: Piercing Through Adversarial Defenses with Latent Features](https://openaccess.thecvf.com/content/CVPR2021/html/Yu_LAFEAT_Piercing_Through_Adversarial_Defenses_With_Latent_Features_CVPR_2021_paper.html) | CVPR2021 | white-box |  [Code](https://github.com/lafeat/lafeat)
+| FIA | [Feature Importance-aware Transferable Adversarial Attacks](https://openaccess.thecvf.com/content/ICCV2021/html/Wang_Feature_Importance-Aware_Transferable_Adversarial_Attacks_ICCV_2021_paper.html) | ICCV2021 | white-box / transfer |  [Code](https://github.com/hcguoO0/FIA)
+| TTP | [On Generating Transferable Targeted Perturbations](https://openaccess.thecvf.com/content/ICCV2021/html/Naseer_On_Generating_Transferable_Targeted_Perturbations_ICCV_2021_paper.html) | ICCV2021 | white-box / transfer |  [Code](https://github.com/Muzammal-Naseer/TTP)
+| DUAP | [Data-free Universal Adversarial Perturbation and Black-box Attack](https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Data-Free_Universal_Adversarial_Perturbation_and_Black-Box_Attack_ICCV_2021_paper.html) | ICCV2021 | white-box / universal |  [Code](https://bit.ly/3y0ZTIC)
+| Admix | [Admix: Enhancing the Transferability of Adversarial Attacks](https://openaccess.thecvf.com/content/ICCV2021/html/Wang_Admix_Enhancing_the_Transferability_of_Adversarial_Attacks_ICCV_2021_paper.html) | ICCV2021 | white-box / transfer |  [Code](https: //github.com/JHL-HUST/Admix)
 
 <h2 id="2">Adversarial Defense</h2>
 
@@ -92,3 +95,4 @@
 | AVMixup | [Adversarial Vertex Mixup: Toward Better Adversarially Robust Generalization](https://arxiv.org/abs/2003.02484) | CVPR2020 | adversarial training | MNIST / CIFAR10 / SVHN | [Code](https://github.com/Saehyung-Lee/cifar10_challenge)
 | ADT | [Adversarial distributional training for robust deep learning](https://arxiv.org/abs/2002.05999) | NIPS2020 | adversarial training | CIFAR100 / SVHN | [Code](https://github.com/dongyp13/Adversarial-Distributional-Training)
 | FLSS | [Boosting Adversarial Robustness using Feature Level Stochastic Smoothing](https://openaccess.thecvf.com/content/CVPR2021W/SAIAD/html/Addepalli_Boosting_Adversarial_Robustness_Using_Feature_Level_Stochastic_Smoothing_CVPRW_2021_paper.html) | CVPR2021 | adversarial training | CIFAR100 / CIFAR10 | [Code](https://github.com/val-iisc/FLSS)
+| Det-AdvProp | [Robust and Accurate Object Detection via Adversarial Learning](https://openaccess.thecvf.com/content/CVPR2021/html/Chen_Robust_and_Accurate_Object_Detection_via_Adversarial_Learning_CVPR_2021_paper.html) | CVPR2021 | adversarial training | COCO2017 | [Code](https://github.com/google/automl/blob/master/efficientdet/Det-AdvProp.md)
