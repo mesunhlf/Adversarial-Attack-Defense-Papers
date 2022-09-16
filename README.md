@@ -13,17 +13,17 @@
 | :----: | :----: | :----: |
 | NIPS2017 | A subset of ImageNet validation set containing 1000 images, which are used in the NIPS 2017 competition. | [Download](https://drive.google.com/file/d/1Z5VTMQrtJRymfN8AZJ2jjU8zdjMrMqIR/view?usp=sharing)
 | SACP2019 | A subset of ImageNet validation set containing 1216 images, which are used in Tianchi Security AI Challenger Program Competition. | [Download](https://drive.google.com/file/d/1oC1ITY8SnQeeC4JxAnGh5HNItasdTQnx/view?usp=sharing)
-| ImageNet-A | [Natural Adversarial Examples](https://openaccess.thecvf.com/content/CVPR2021/html/Hendrycks_Natural_Adversarial_Examples_CVPR_2021_paper.html): Real-world, unmodified, and naturally occurring examples that cause classifier accuracy to significantly degrade. | [Download](https://github.com/hendrycks/natural-adv-examples)
+| ImageNet-A | [Natural Adversarial Examples: Real-world, unmodified, and naturally occurring examples that cause classifier accuracy to significantly degrade](https://openaccess.thecvf.com/content/CVPR2021/html/Hendrycks_Natural_Adversarial_Examples_CVPR_2021_paper.html). | [Download](https://github.com/hendrycks/natural-adv-examples)
 
 
-| Network | Paper | Source | Code
+| Network | Paper | Source | Code 
 | :----: | :----: | :----: | :----: | 
 | VggNet | [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556) | ICLR2015  | [Code](https://github.com/tensorflow/models/tree/master/research/slim)
 | InceptionNet | [Rethinking the inception architecture for computer vision](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Szegedy_Rethinking_the_Inception_CVPR_2016_paper.html) | CVPR2016 | [Code](https://github.com/tensorflow/models/tree/master/research/slim)
 | ResNet | [Deep residual learning for image recognition](https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html) | CVPR2016 | [Code](https://github.com/tensorflow/models/tree/master/research/slim)
 | DenseNet | [Densely Connected Convolutional Networks](https://arxiv.org/abs/1608.06993) | CVPR2017 | [Code](https://github.com/tensorflow/models/tree/master/research/slim)
 | EfficientNet | [EfficientNet: Rethinking model scaling for convolutional neural networks](http://proceedings.mlr.press/v97/tan19a.html) | ICML2019 | [Code](https://github.com/tensorflow/models/tree/master/research/slim)
-
+| ViT | [An image is worth 16x16 words: Transformers for image recognition at scale](https://arxiv.org/abs/2010.11929) | ICLR2020 | [Code](https://github.com/google-research/vision_transformer)
 
 
 <h2 id="1">Adversarial Attack</h2>
@@ -65,7 +65,8 @@
 | FIA | [Feature Importance-aware Transferable Adversarial Attacks](https://openaccess.thecvf.com/content/ICCV2021/html/Wang_Feature_Importance-Aware_Transferable_Adversarial_Attacks_ICCV_2021_paper.html) | ICCV2021 | white-box / transfer |  [Code](https://github.com/hcguoO0/FIA)
 | TTP | [On Generating Transferable Targeted Perturbations](https://openaccess.thecvf.com/content/ICCV2021/html/Naseer_On_Generating_Transferable_Targeted_Perturbations_ICCV_2021_paper.html) | ICCV2021 | white-box / transfer |  [Code](https://github.com/Muzammal-Naseer/TTP)
 | DUAP | [Data-free Universal Adversarial Perturbation and Black-box Attack](https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Data-Free_Universal_Adversarial_Perturbation_and_Black-Box_Attack_ICCV_2021_paper.html) | ICCV2021 | white-box / universal |  [Code](https://bit.ly/3y0ZTIC)
-| Admix | [Admix: Enhancing the Transferability of Adversarial Attacks](https://openaccess.thecvf.com/content/ICCV2021/html/Wang_Admix_Enhancing_the_Transferability_of_Adversarial_Attacks_ICCV_2021_paper.html) | ICCV2021 | white-box / transfer |  [Code](https: //github.com/JHL-HUST/Admix)
+| Admix | [Admix: Enhancing the Transferability of Adversarial Attacks](https://openaccess.thecvf.com/content/ICCV2021/html/Wang_Admix_Enhancing_the_Transferability_of_Adversarial_Attacks_ICCV_2021_paper.html) | ICCV2021 | white-box / transfer |  [Code](https://github.com/JHL-HUST/Admix)
+| CA2 | [Cyclical Adversarial Attack Pierces Black-box Deep Neural Networks](https://www.sciencedirect.com/science/article/pii/S0031320322003120) | PR2022 | white-box / transfer |  [Code](https://github.com/mesunhlf/CA2)
 
 <h2 id="2">Adversarial Defense</h2>
 
@@ -96,3 +97,4 @@
 | ADT | [Adversarial distributional training for robust deep learning](https://arxiv.org/abs/2002.05999) | NIPS2020 | adversarial training | CIFAR100 / SVHN | [Code](https://github.com/dongyp13/Adversarial-Distributional-Training)
 | FLSS | [Boosting Adversarial Robustness using Feature Level Stochastic Smoothing](https://openaccess.thecvf.com/content/CVPR2021W/SAIAD/html/Addepalli_Boosting_Adversarial_Robustness_Using_Feature_Level_Stochastic_Smoothing_CVPRW_2021_paper.html) | CVPR2021 | adversarial training | CIFAR100 / CIFAR10 | [Code](https://github.com/val-iisc/FLSS)
 | Det-AdvProp | [Robust and Accurate Object Detection via Adversarial Learning](https://openaccess.thecvf.com/content/CVPR2021/html/Chen_Robust_and_Accurate_Object_Detection_via_Adversarial_Learning_CVPR_2021_paper.html) | CVPR2021 | adversarial training | COCO2017 | [Code](https://github.com/google/automl/blob/master/efficientdet/Det-AdvProp.md)
+| Det-AdvProp | [Boosting randomized smoothing with variance reduced classifiers](https://arxiv.org/abs/2106.06946) | ICLR2022 | adversarial training / ensemble | CIFAR10 / ImageNet | [Code](https://github.com/eth-sri/smoothing-ensembles)
