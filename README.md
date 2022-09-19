@@ -14,7 +14,7 @@
 | NIPS2017 | A subset of ImageNet validation set containing 1000 images, which are used in the NIPS 2017 competition. | [Download](https://drive.google.com/file/d/1Z5VTMQrtJRymfN8AZJ2jjU8zdjMrMqIR/view?usp=sharing)
 | SACP2019 | A subset of ImageNet validation set containing 1216 images, which are used in Tianchi Security AI Challenger Program Competition. | [Download](https://drive.google.com/file/d/1oC1ITY8SnQeeC4JxAnGh5HNItasdTQnx/view?usp=sharing)
 | ImageNet-A | [Natural Adversarial Examples: Real-world, unmodified, and naturally occurring examples that cause classifier accuracy to significantly degrade](https://openaccess.thecvf.com/content/CVPR2021/html/Hendrycks_Natural_Adversarial_Examples_CVPR_2021_paper.html). | [Download](https://github.com/hendrycks/natural-adv-examples)
-
+| ImageNet-C | [Benchmarking Neural Network Robustness to Common Corruptions and Perturbations](https://arxiv.org/abs/1903.12261). | [Download](https://github.com/hendrycks/robustness)
 
 | Network | Paper | Source | Code 
 | :----: | :----: | :----: | :----: | 
@@ -97,4 +97,4 @@
 | ADT | [Adversarial distributional training for robust deep learning](https://arxiv.org/abs/2002.05999) | NIPS2020 | adversarial training | CIFAR100 / SVHN | [Code](https://github.com/dongyp13/Adversarial-Distributional-Training)
 | FLSS | [Boosting Adversarial Robustness using Feature Level Stochastic Smoothing](https://openaccess.thecvf.com/content/CVPR2021W/SAIAD/html/Addepalli_Boosting_Adversarial_Robustness_Using_Feature_Level_Stochastic_Smoothing_CVPRW_2021_paper.html) | CVPR2021 | adversarial training | CIFAR100 / CIFAR10 | [Code](https://github.com/val-iisc/FLSS)
 | Det-AdvProp | [Robust and Accurate Object Detection via Adversarial Learning](https://openaccess.thecvf.com/content/CVPR2021/html/Chen_Robust_and_Accurate_Object_Detection_via_Adversarial_Learning_CVPR_2021_paper.html) | CVPR2021 | adversarial training | COCO2017 | [Code](https://github.com/google/automl/blob/master/efficientdet/Det-AdvProp.md)
-| Det-AdvProp | [Boosting randomized smoothing with variance reduced classifiers](https://arxiv.org/abs/2106.06946) | ICLR2022 | adversarial training / ensemble | CIFAR10 / ImageNet | [Code](https://github.com/eth-sri/smoothing-ensembles)
+| ERS | [Boosting randomized smoothing with variance reduced classifiers](https://arxiv.org/abs/2106.06946) | ICLR2022 | adversarial training / ensemble | CIFAR10 / ImageNet | [Code](https://github.com/eth-sri/smoothing-ensembles)
