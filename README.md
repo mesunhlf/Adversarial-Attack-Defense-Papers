@@ -67,6 +67,9 @@
 | DUAP | [Data-free Universal Adversarial Perturbation and Black-box Attack](https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Data-Free_Universal_Adversarial_Perturbation_and_Black-Box_Attack_ICCV_2021_paper.html) | ICCV2021 | white-box / universal |  [Code](https://bit.ly/3y0ZTIC)
 | Admix | [Admix: Enhancing the Transferability of Adversarial Attacks](https://openaccess.thecvf.com/content/ICCV2021/html/Wang_Admix_Enhancing_the_Transferability_of_Adversarial_Attacks_ICCV_2021_paper.html) | ICCV2021 | white-box / transfer |  [Code](https://github.com/JHL-HUST/Admix)
 | CA2 | [Cyclical Adversarial Attack Pierces Black-box Deep Neural Networks](https://www.sciencedirect.com/science/article/pii/S0031320322003120) | PR2022 | white-box / transfer |  [Code](https://github.com/mesunhlf/CA2)
+| DEFEAT | [DEFEAT: Decoupled feature attack across deep neural networks. Neural Networks](https://www.sciencedirect.com/science/article/abs/pii/S0893608022003434) | NN2022 | white-box / transfer |  [Code](https://github.com/mesunhlf/DEFEAT)
+| C-GSP | [Boosting Transferability of Targeted Adversarial Examples via Hierarchical Generative Networks](https://link.springer.com/chapter/10.1007/978-3-031-19772-7_42) | ECCV2022 | white-box / transfer |  [Code](https://github.com/ShawnXYang/C-GSP)
+
 
 <h2 id="2">Adversarial Defense</h2>
 
@@ -97,5 +100,9 @@
 | ADT | [Adversarial distributional training for robust deep learning](https://arxiv.org/abs/2002.05999) | NIPS2020 | adversarial training | CIFAR100 / SVHN | [Code](https://github.com/dongyp13/Adversarial-Distributional-Training)
 | FLSS | [Boosting Adversarial Robustness using Feature Level Stochastic Smoothing](https://openaccess.thecvf.com/content/CVPR2021W/SAIAD/html/Addepalli_Boosting_Adversarial_Robustness_Using_Feature_Level_Stochastic_Smoothing_CVPRW_2021_paper.html) | CVPR2021 | adversarial training | CIFAR100 / CIFAR10 | [Code](https://github.com/val-iisc/FLSS)
 | Det-AdvProp | [Robust and Accurate Object Detection via Adversarial Learning](https://openaccess.thecvf.com/content/CVPR2021/html/Chen_Robust_and_Accurate_Object_Detection_via_Adversarial_Learning_CVPR_2021_paper.html) | CVPR2021 | adversarial training | COCO2017 | [Code](https://github.com/google/automl/blob/master/efficientdet/Det-AdvProp.md)
+| AdvCL | [When Does Contrastive Learning Preserve Adversarial Robustness from Pretraining to Finetuning?](https://proceedings.neurips.cc/paper/2021/hash/b36ed8a07e3cd80ee37138524690eca1-Abstract.html) | NIPS2021 | adversarial training / contrastive learning | CIFAR10 / CIFAR100 | [Code](https://github.com/LijieFan/AdvCL)
+| PAT | [Perceptual Adversarial Robustness: Defense Against Unseen Threat Models](https://arxiv.org/abs/2006.12655) | ICLR2021 | adversarial training | CIFAR10 / ImageNet | [Code](https://github.com/cassidylaidlaw/perceptual-advex)
 | ERS | [Boosting randomized smoothing with variance reduced classifiers](https://arxiv.org/abs/2106.06946) | ICLR2022 | adversarial training / ensemble | CIFAR10 / ImageNet | [Code](https://github.com/eth-sri/smoothing-ensembles)
 | LAS-AT | [LAS-AT: Adversarial Training with Learnable Attack Strategy](https://openaccess.thecvf.com/content/CVPR2022/html/Jia_LAS-AT_Adversarial_Training_With_Learnable_Attack_Strategy_CVPR_2022_paper.html) | CVPR2022 | adversarial training | CIFAR10 / CIFAR100 / Tiny Imagenet | [Code](https://github.com/jiaxiaojunQAQ/LAS-AT)
+| DeACL | [Decoupled Adversarial Contrastive Learning for Self-supervised Adversarial Robustness](https://link.springer.com/chapter/10.1007/978-3-031-20056-4_42) | ECCV2022 | adversarial training / contrastive learning | CIFAR10 / CIFAR100 | [Code](https://github.com/pantheon5100/DeACL)
+| RAW | [All You Need Is RAW: Defending Against Adversarial Attacks with Camera Image Pipelines](https://link.springer.com/chapter/10.1007/978-3-031-19800-7_19) | ECCV2022 | plug-in | ImageNet / COCO | [Code](https://github.com/princeton-computational-imaging/allyouneedisraw)
