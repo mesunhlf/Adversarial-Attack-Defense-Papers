@@ -24,6 +24,8 @@
 | DenseNet | [Densely Connected Convolutional Networks](https://arxiv.org/abs/1608.06993) | CVPR2017 | [Code](https://github.com/tensorflow/models/tree/master/research/slim)
 | EfficientNet | [EfficientNet: Rethinking model scaling for convolutional neural networks](http://proceedings.mlr.press/v97/tan19a.html) | ICML2019 | [Code](https://github.com/tensorflow/models/tree/master/research/slim)
 | ViT | [An image is worth 16x16 words: Transformers for image recognition at scale](https://arxiv.org/abs/2010.11929) | ICLR2020 | [Code](https://github.com/google-research/vision_transformer)
+| AdvModels | [Adversarial Machine Learning at Scale](https://arxiv.org/abs/1611.01236) | ICLR2016 | [Code1](https://github.com/tensorflow/models/tree/benchmark/research/adv_imagenet_models) [Code2](https://drive.google.com/drive/folders/1sfD2IIDbBdbWc13IQlRLEBWHJ1NDo-lm?usp=drive_link)
+| EnsAdvModels | [Ensemble Adversarial Training: Attacks and Defenses](https://arxiv.org/abs/1705.07204) | ICLR2018 | [Code1](https://github.com/tensorflow/models/tree/benchmark/research/adv_imagenet_models) [Code2](https://drive.google.com/drive/folders/1sfD2IIDbBdbWc13IQlRLEBWHJ1NDo-lm?usp=drive_link)
 
 
 <h2 id="1">Adversarial Attack</h2>
