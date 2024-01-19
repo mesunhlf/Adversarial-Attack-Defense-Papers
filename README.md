@@ -48,6 +48,7 @@
 | NAG | [NAG: Network for Adversary Generation](https://openaccess.thecvf.com/content_cvpr_2018/html/Mopuri_NAG_Network_for_CVPR_2018_paper.html) | CVPR2017 | white-box / GAN |  [Code](https://github.com/val-iisc/nag)
 | SF | [SparseFool: a few pixels make a big difference](https://openaccess.thecvf.com/content_CVPR_2019/html/Modas_SparseFool_A_Few_Pixels_Make_a_Big_Difference_CVPR_2019_paper.html) | CVPR2019 | white-box |  [Code](http://github.com/LTS4/SparseFool)
 | GAP | [Generative Adversarial Perturbations](https://openaccess.thecvf.com/content_cvpr_2018/html/Poursaeed_Generative_Adversarial_Perturbations_CVPR_2018_paper.html) | CVPR2018 | white-box / GAN |  [Code](https://github.com/OmidPoursaeed/Generative_Adversarial_Perturbations)
+| NES | [Black-box Adversarial Attacks with Limited Queries and Information](https://arxiv.org/abs/1804.08598) | ICML2018 | black-box / query |  [Code](https://github.com/labsix/limited-blackbox-attacks)
 | RH | [Regional Homogeneity: Towards Learning Transferable Universal Adversarial Perturbations Against Defenses](https://link.springer.com/chapter/10.1007%2F978-3-030-58621-8_46) | ECCV2020 | white-box / transfer / universal |  [Code](https://github.com/LiYingwei/Regional-Homogeneity#regional-homogeneity-towards-learning-transferable-universal-adversarial-perturbations-against-defenses)
 | CAMOU | [CAMOU: Learning Physical Vehicle Camouflages to Adversarially Attack Detectors in the Wild](https://openreview.net/pdf?id=SJgEl3A5tm) | ICLR2019 | black-box / physical |  [Code](https://github.com/naufalso/camou-iclr2019-tf)
 | UPC | [Universal Physical Camouflage Attacks on Object Detectors](https://openaccess.thecvf.com/content_CVPR_2020/html/Huang_Universal_Physical_Camouflage_Attacks_on_Object_Detectors_CVPR_2020_paper.html) | CVPR2020 | white-box / physical |  [Code](https://mesunhlf.github.io/index_physical.html)
@@ -71,7 +72,7 @@
 | CA2 | [Cyclical Adversarial Attack Pierces Black-box Deep Neural Networks](https://www.sciencedirect.com/science/article/pii/S0031320322003120) | PR2022 | white-box / transfer |  [Code](https://github.com/mesunhlf/CA2)
 | DEFEAT | [DEFEAT: Decoupled feature attack across deep neural networks. Neural Networks](https://www.sciencedirect.com/science/article/abs/pii/S0893608022003434) | NN2022 | white-box / transfer |  [Code](https://github.com/mesunhlf/DEFEAT)
 | C-GSP | [Boosting Transferability of Targeted Adversarial Examples via Hierarchical Generative Networks](https://link.springer.com/chapter/10.1007/978-3-031-19772-7_42) | ECCV2022 | white-box / transfer |  [Code](https://github.com/ShawnXYang/C-GSP)
-
+| EA | [Erosion Attack: Harnessing Corruption To Improve Adversarial Examples](https://ieeexplore.ieee.org/abstract/document/10102830) | TIP2023 | black-box / transfer |  [Code](https://github.com/mesunhlf/EA)
 
 <h2 id="2">Adversarial Defense</h2>
 
@@ -108,3 +109,4 @@
 | LAS-AT | [LAS-AT: Adversarial Training with Learnable Attack Strategy](https://openaccess.thecvf.com/content/CVPR2022/html/Jia_LAS-AT_Adversarial_Training_With_Learnable_Attack_Strategy_CVPR_2022_paper.html) | CVPR2022 | adversarial training | CIFAR10 / CIFAR100 / Tiny Imagenet | [Code](https://github.com/jiaxiaojunQAQ/LAS-AT)
 | DeACL | [Decoupled Adversarial Contrastive Learning for Self-supervised Adversarial Robustness](https://link.springer.com/chapter/10.1007/978-3-031-20056-4_42) | ECCV2022 | adversarial training / contrastive learning | CIFAR10 / CIFAR100 | [Code](https://github.com/pantheon5100/DeACL)
 | RAW | [All You Need Is RAW: Defending Against Adversarial Attacks with Camera Image Pipelines](https://link.springer.com/chapter/10.1007/978-3-031-19800-7_19) | ECCV2022 | plug-in | ImageNet / COCO | [Code](https://github.com/princeton-computational-imaging/allyouneedisraw)
+| FASTEN | [FASTEN: Fast Ensemble Learning For Improved Adversarial Robustness](https://ieeexplore.ieee.org/document/10329935) | TIFS2023 | adversarial training / ensemble | CIFAR10 / CIFAR100 / Tiny Imagenet |  [Code](https://github.com/mesunhlf/FASTEN)
